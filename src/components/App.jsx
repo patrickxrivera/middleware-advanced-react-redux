@@ -1,5 +1,11 @@
 import React from 'react';
 
-const App = () => <div>React simple starter</div>;
+import UserList from './UserList.jsx';
+
+const App = () => (
+  <div>
+    <UserList />
+  </div>
+);
 
 export default App;
